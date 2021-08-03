@@ -21,3 +21,14 @@ print(programmers.clear())
 programmers_list = [('Python',10),('Ruby',5),('C++',10)]
 print(programmers_list)
 print(dict(programmers_list))
+print(programmers['Ruby'])
+
+nums = 4,2,5,7,1,3
+print(sorted(nums))
+print(nums)
+print(sorted(nums), reversed=True)
+
+print(sorted(programmers))
+print(sorted(programmers),reversed=True)
+print(sorted(programmers.values()))
+
