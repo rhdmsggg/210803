@@ -32,4 +32,3 @@ print(color.pop())
 
 print(color)
 
-
