@@ -19,3 +19,17 @@ print(color)
 
 print('red' in color)
 print('black' in color)
+
+color.remove('red')
+print(color)
+
+color.discard('black')
+print(color)
+color.discard('blue')
+print(color)
+
+print(color.pop())
+
+print(color)
+
+
