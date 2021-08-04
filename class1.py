@@ -6,7 +6,8 @@ class Person:
     def print(self):
         print("My name is {0}".format(self.name))
 
-#인스터늣 생성
+#인스턴스 생성
 p1 = Person()
 p1.print()
+
 
